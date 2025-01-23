@@ -1,0 +1,424 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good evening",
+          "How are you?"
+        ],
+        "responses": [
+          "Hey! How can I help you with your medical needs?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Take care"
+        ],
+        "responses": [
+          "Goodbye! Take care of your health.",
+          "See you later! Stay safe and healthy.",
+          "Bye! Feel free to reach out if you need any help."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Much appreciated",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome! Stay healthy.",
+          "No problem! Let me know if there's anything else.",
+          "Happy to help!"
+        ]
+      },
+      {
+        "tag": "symptom_check",
+        "patterns": [
+          "I have a fever and cough",
+          "I'm experiencing headaches",
+          "I feel nauseous and dizzy",
+          "I have a sore throat"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Please provide more details about your symptoms.",
+          "It sounds like you might need to consult a doctor. Would you like me to guide you?",
+          "Based on your symptoms, I recommend monitoring them closely or seeking medical attention."
+        ]
+      },
+      {
+        "tag": "medication_info",
+        "patterns": [
+          "What is paracetamol used for?",
+          "Can I take ibuprofen for a headache?",
+          "What are the side effects of antibiotics?",
+          "How does this medicine work?"
+        ],
+        "responses": [
+          "Paracetamol is commonly used for pain relief and fever reduction.",
+          "Ibuprofen can help relieve headaches, but make sure to follow the dosage instructions.",
+          "Antibiotics can have side effects like nausea or diarrhea. Consult your doctor for advice.",
+          "This medicine works by targeting the source of the issue. Let me know if you need specific details."
+        ]
+      },
+      {
+        "tag": "appointment_booking",
+        "patterns": [
+          "I need to book a doctor's appointment",
+          "Can I schedule a consultation?",
+          "How do I book an appointment with a specialist?",
+          "I want to see a doctor"
+        ],
+        "responses": [
+          "Sure! Please provide your preferred date, time, and the type of doctor you'd like to see.",
+          "I can help you book an appointment. When would you like to visit?",
+          "Please let me know your location and the specialty you're looking for, and I'll guide you."
+        ]
+      },
+      {
+        "tag": "diet_advice",
+        "patterns": [
+          "What should I eat for a healthy lifestyle?",
+          "Can you suggest a diet for weight loss?",
+          "What foods are good for immunity?",
+          "I need a diet plan"
+        ],
+        "responses": [
+          "For a healthy lifestyle, include fruits, vegetables, lean proteins, and whole grains in your diet.",
+          "For weight loss, focus on portion control, avoid processed foods, and stay hydrated.",
+          "To boost immunity, eat foods rich in vitamin C, zinc, and antioxidants.",
+          "Consult a dietitian for a personalized diet plan based on your health needs."
+        ]
+      },
+      {
+        "tag": "emergency",
+        "patterns": [
+          "I have chest pain",
+          "I'm having difficulty breathing",
+          "There's an emergency",
+          "I need urgent help"
+        ],
+        "responses": [
+          "This seems like a medical emergency. Please call your local emergency number immediately.",
+          "Chest pain and difficulty breathing are serious symptoms. Seek emergency medical attention right away.",
+          "If this is an emergency, please contact the nearest hospital or call for an ambulance immediately."
+        ]
+      },
+      {
+        "tag": "general_health_tips",
+        "patterns": [
+          "How can I stay healthy?",
+          "What are some general health tips?",
+          "How do I improve my overall health?"
+        ],
+        "responses": [
+          "To stay healthy, eat a balanced diet, exercise regularly, stay hydrated, and get enough sleep.",
+          "Avoid smoking, limit alcohol consumption, and manage stress for better health.",
+          "Regular check-ups and vaccinations are important for maintaining good health."
+        ]
+      },
+      {
+        "tag": "mental_health",
+        "patterns": [
+          "I'm feeling anxious",
+          "I think I might be depressed",
+          "Can you help with mental health issues?",
+          "How do I deal with stress?"
+        ],
+        "responses": [
+          "It's important to talk to a mental health professional. Would you like help finding one?",
+          "Try practicing deep breathing and mindfulness to manage stress.",
+          "I'm here to listen, but seeking professional counseling can make a big difference.",
+          "For anxiety and depression, consider consulting a therapist or psychiatrist."
+        ]
+      },
+      {
+        "tag": "vaccination_info",
+        "patterns": [
+          "What vaccines should I get?",
+          "When is my next vaccine due?",
+          "Can you provide vaccine recommendations?",
+          "What are the side effects of vaccines?"
+        ],
+        "responses": [
+          "Vaccines are essential for preventing diseases. Consult your doctor for a schedule tailored to your age and health.",
+          "Some common vaccines include flu, tetanus, and COVID-19. Let me know your age group for specific advice.",
+          "Side effects of vaccines are usually mild, like fever or soreness at the injection site.",
+          "Would you like me to find a vaccination center near you?"
+        ]
+      },
+      {
+        "tag": "child_health",
+        "patterns": [
+          "My child has a fever",
+          "What should I do if my baby has a cold?",
+          "How often should children get checkups?",
+          "What are common childhood illnesses?"
+        ],
+        "responses": [
+          "For fever in children, ensure they stay hydrated and consult a pediatrician if the fever persists.",
+          "Babies often catch colds. Keep them comfortable and consult a doctor if symptoms worsen.",
+          "Children should have regular checkups at least once a year, or as advised by their pediatrician.",
+          "Common childhood illnesses include colds, ear infections, and chickenpox. Vaccinations can help prevent many of these."
+        ]
+      },
+      {
+        "tag": "fitness",
+        "patterns": [
+          "What exercises should I do?",
+          "Can you suggest a workout routine?",
+          "How do I stay fit?",
+          "Is yoga good for health?"
+        ],
+        "responses": [
+          "For fitness, combine cardio, strength training, and flexibility exercises.",
+          "A balanced routine includes jogging, weight lifting, and yoga. Need a detailed plan?",
+          "Yoga is excellent for both physical and mental health. Start with basic poses and progress gradually.",
+          "Staying fit requires consistency. Exercise for at least 30 minutes a day and maintain a healthy diet."
+        ]
+      },
+      {
+        "tag": "pregnancy",
+        "patterns": [
+          "What foods should I eat during pregnancy?",
+          "Can I exercise while pregnant?",
+          "What are the symptoms of pregnancy?",
+          "How do I prepare for delivery?"
+        ],
+        "responses": [
+          "During pregnancy, eat foods rich in iron, calcium, and folic acid. Avoid raw or undercooked foods.",
+          "Light exercise like walking or prenatal yoga is safe during pregnancy, but consult your doctor first.",
+          "Common pregnancy symptoms include nausea, fatigue, and mood swings. Let me know if you need further details.",
+          "Prepare for delivery by attending prenatal classes and packing a hospital bag in advance."
+        ]
+      },
+      {
+        "tag": "skin_health",
+        "patterns": [
+          "How do I take care of my skin?",
+          "What are the causes of acne?",
+          "Can you recommend a skincare routine?",
+          "How do I treat dry skin?"
+        ],
+        "responses": [
+          "For healthy skin, stay hydrated, use sunscreen, and cleanse daily.",
+          "Acne can be caused by hormones, stress, or diet. A dermatologist can provide personalized advice.",
+          "A basic skincare routine includes cleansing, moisturizing, and applying sunscreen.",
+          "For dry skin, use a gentle moisturizer and avoid harsh soaps. Drink plenty of water."
+        ]
+      },
+      {
+        "tag": "chronic_conditions",
+        "patterns": [
+          "How do I manage diabetes?",
+          "What is the treatment for high blood pressure?",
+          "Can you help with arthritis pain?",
+          "How do I lower my cholesterol?"
+        ],
+        "responses": [
+          "For diabetes, monitor blood sugar levels, maintain a healthy diet, and exercise regularly.",
+          "High blood pressure can be managed with medication, a low-sodium diet, and regular exercise.",
+          "For arthritis, physical therapy and anti-inflammatory medications can help reduce pain.",
+          "To lower cholesterol, eat foods high in fiber and avoid trans fats. Medication may also be required."
+        ]
+      },
+      {
+        "tag": "sleep_health",
+        "patterns": [
+          "I can't sleep at night",
+          "What are tips for better sleep?",
+          "How much sleep do I need?",
+          "Can you help with insomnia?"
+        ],
+        "responses": [
+          "For better sleep, stick to a consistent schedule and avoid screens before bedtime.",
+          "Adults typically need 7-9 hours of sleep per night for optimal health.",
+          "If you have insomnia, try relaxation techniques like deep breathing or consult a doctor for guidance.",
+          "A comfortable sleep environment and limiting caffeine can improve your sleep quality."
+        ]
+      },
+      {
+        "tag": "headache",
+        "patterns": [
+          "What should I take for a headache?",
+          "Any medicine for headaches?",
+          "How do I treat a headache?"
+        ],
+        "responses": [
+          "For headaches, over-the-counter medicines like paracetamol or ibuprofen can help. Consult a doctor if the pain persists.",
+          "Paracetamol or ibuprofen are commonly used for headaches. Always follow the recommended dosage."
+        ]
+      },
+      {
+        "tag": "fever",
+        "patterns": [
+          "How do I reduce fever?",
+          "What medicine is good for fever?",
+          "I have a fever. What should I take?"
+        ],
+        "responses": [
+          "Paracetamol is commonly used to reduce fever. If the fever lasts more than 3 days, consult a doctor.",
+          "Take paracetamol or acetaminophen to reduce fever. Drink plenty of fluids and rest well."
+        ]
+      },
+      {
+        "tag": "cold",
+        "patterns": [
+          "What medicine should I take for a cold?",
+          "How do I treat a common cold?",
+          "Any remedies for colds?"
+        ],
+        "responses": [
+          "Decongestants like pseudoephedrine or antihistamines like cetirizine can help with cold symptoms. Consult a doctor if symptoms persist.",
+          "For a cold, you can take over-the-counter medications like paracetamol for fever and a decongestant for a stuffy nose."
+        ]
+      },
+      {
+        "tag": "cough",
+        "patterns": [
+          "What should I take for a cough?",
+          "How do I stop coughing?",
+          "Any medicine for cough?"
+        ],
+        "responses": [
+          "For a dry cough, cough suppressants like dextromethorphan can help. For a productive cough, expectorants like guaifenesin are useful.",
+          "You can take a cough syrup or lozenges for relief. If your cough persists, consult a doctor."
+        ]
+      },
+      {
+        "tag": "stomach_pain",
+        "patterns": [
+          "What should I take for stomach pain?",
+          "How do I treat a stomachache?",
+          "Any medicine for abdominal pain?"
+        ],
+        "responses": [
+          "Antacids like ranitidine or omeprazole can help with indigestion-related stomach pain. For cramps, try mefenamic acid.",
+          "Take an antacid for acidity-related pain or a pain reliever for cramps. See a doctor if the pain is severe or persistent."
+        ]
+      },
+      {
+        "tag": "diarrhea",
+        "patterns": [
+          "How do I stop diarrhea?",
+          "Any medicine for diarrhea?",
+          "What should I take for loose motions?"
+        ],
+        "responses": [
+          "Oral rehydration salts (ORS) and loperamide can help with diarrhea. Stay hydrated and consult a doctor if symptoms persist.",
+          "For diarrhea, take ORS to prevent dehydration and loperamide to slow bowel movements."
+        ]
+      },
+      {
+        "tag": "allergy",
+        "patterns": [
+          "What should I take for allergies?",
+          "How do I treat an allergic reaction?",
+          "Any medicine for allergy symptoms?"
+        ],
+        "responses": [
+          "Antihistamines like loratadine, cetirizine, or diphenhydramine can relieve allergy symptoms. For severe reactions, consult a doctor.",
+          "For mild allergies, take over-the-counter antihistamines. If you experience severe symptoms, seek immediate medical attention."
+        ]
+      },
+      {
+        "tag": "sore_throat",
+        "patterns": [
+          "What should I take for a sore throat?",
+          "How do I relieve a sore throat?",
+          "Any medicine for throat pain?"
+        ],
+        "responses": [
+          "Lozenges, throat sprays, or warm saltwater gargles can help. Pain relievers like ibuprofen or paracetamol are also effective.",
+          "For a sore throat, try lozenges or an antiseptic spray. Stay hydrated and consult a doctor if it doesn’t improve."
+        ]
+      },
+      {
+        "tag": "acidity",
+        "patterns": [
+          "How do I treat acidity?",
+          "What should I take for acid reflux?",
+          "Any medicine for heartburn?"
+        ],
+        "responses": [
+          "Antacids like calcium carbonate, or proton pump inhibitors like omeprazole, can relieve acidity. Avoid spicy foods.",
+          "Take an antacid for immediate relief or omeprazole for long-term management. Consult a doctor if symptoms persist."
+        ]
+      },
+      {
+        "tag": "muscle_pain",
+        "patterns": [
+          "What should I take for muscle pain?",
+          "How do I treat sore muscles?",
+          "Any medicine for body aches?"
+        ],
+        "responses": [
+          "Pain relievers like ibuprofen or acetaminophen can help with muscle pain. Apply a warm compress for relief.",
+          "For muscle pain, try ibuprofen or paracetamol. Rest and gentle stretching can also help."
+        ]
+      },
+      {
+        "tag": "dental_care",
+        "patterns": [
+          "How do I take care of my teeth?",
+          "What should I do for healthy gums?",
+          "Any tips for dental hygiene?"
+        ],
+        "responses": [
+          "Brush your teeth twice a day, floss daily, and visit the dentist regularly for checkups and cleanings.",
+          "To maintain healthy gums, avoid sugary foods, use a soft-bristled toothbrush, and rinse with mouthwash.",
+          "Good dental hygiene includes brushing, flossing, and using fluoride toothpaste. Regular dental checkups are essential."
+        ]
+      },
+      {
+        "tag": "vision_care",
+        "patterns": [
+          "How do I take care of my eyes?",
+          "What should I do for better vision?",
+          "Any tips for eye health?"
+        ],
+        "responses": [
+          "To care for your eyes, wear sunglasses, take breaks from screens, and get regular eye checkups.",
+          "For better vision, eat foods rich in vitamin A, protect your eyes from UV rays, and maintain good lighting.",
+          "Eye health tips include wearing protective eyewear, taking screen breaks, and getting regular eye exams."
+        ]
+      },
+      {
+        "tag": "hair_care",
+        "patterns": [
+          "How do I take care of my hair?",
+          "What should I do for healthy hair?",
+          "Any tips for hair care?"
+        ],
+        "responses": [
+          "To care for your hair, use a mild shampoo, avoid heat styling, and eat a balanced diet rich in vitamins and minerals.",
+          "For healthy hair, avoid harsh chemicals, protect your hair from sun damage, and use a conditioner regularly.",
+          "Hair care tips include using a wide-tooth comb, avoiding excessive heat, and trimming split ends regularly."
+        ]
+      },
+      {
+        "tag": "pet_health",
+        "patterns": [
+          "How do I take care of my pet's health?",
+          "What should I feed my pet?",
+          "Any tips for pet care?"
+        ],
+        "responses": [
+          "To care for your pet's health, provide regular exercise, a balanced diet, and routine veterinary checkups.",
+          "Feed your pet high-quality food, keep them hydrated, and provide toys for mental stimulation.",
+          "Pet care tips include grooming, training, and socializing your pet. Regular vet visits are essential for their health."  
+        ]
+    }
+  ]
+}
+  

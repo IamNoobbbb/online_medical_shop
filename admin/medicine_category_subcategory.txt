@@ -1,0 +1,16 @@
+###Categories
+Tablets
+Capsules
+Ointments and Creams
+Injections
+Syrups
+###Sub-Categories
+Pain Relief
+Infection Treatment
+Allergy Relief
+Vitamin and Supplements
+Antibiotics
+Digestive Health
+Skin Care
+Immune Boosters
+Specialized Prescriptions
